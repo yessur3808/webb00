@@ -42,17 +42,17 @@ window.YIUtils = {
         video_stop: function(t, n, e) {
             return this.event(t, "videos", "stop", n, e, !0)
         },
-        event: function(t, n, e, i, o, a) {
-            if (t in this && n && "" != n && e && "" != e) {
+         event: function(e, t, n, o, i, r) {
+            if (e in this && t && "" != t && n && "" != n) {
                 ga || (c = window, s = document, u = "http" + ("https:" === location.protocol ? "s" : "") + "://www.google-analytics.com/analytics.js", c.GoogleAnalyticsObject = "ga", c.ga = c.ga || function() {
                     (c.ga.q = c.ga.q || []).push(arguments)
-                }, c.ga.l = 1 * new Date, l = s.createElement("script"), d = s.getElementsByTagName("script")[0], l.async = 1, l.src = u, d.parentNode.insertBefore(l, d)), ga("create", this[t], "auto");
-                var r = {
+                }, c.ga.l = 1 * new Date, p = s.createElement("script"), d = s.getElementsByTagName("script")[0], p.async = 1, p.src = u, d.parentNode.insertBefore(p, d)), ga("create", this[e], "auto");
+                var a = {
                     hitType: "event"
                 };
-                n && "" != n && (r.eventCategory = n), e && "" != e && (r.eventAction = e), i && "" != i && (r.eventLabel = i), o && "" != o && (r.eventValue = o), a && (r.nonInteraction = !0), ga("send", r)
+                t && "" != t && (a.eventCategory = t), n && "" != n && (a.eventAction = n), o && "" != o && (a.eventLabel = o), i && "" != i && (a.eventValue = i), r && (a.nonInteraction = !0), ga("send", a)
             }
-            var c, s, u, l, d
+            var c, s, u, p, d
         }
     },
     YIsecure: function() {
