@@ -1107,7 +1107,7 @@ var projects_config = {
   {
     "name": "Embed Generator",
     "desc": "A webpage that helps the in-team infographics designers develop quick embeds/widgets for online articles.",
-    "img": "../img/cvrs/embedgen.png",
+    "img": "../img/cvrs/embedGen.png",
     "url": "FALSE",
     "id": "YI0000072",
     "date": "02/04/2019",
