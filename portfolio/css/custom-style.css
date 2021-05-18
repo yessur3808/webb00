@@ -88,6 +88,8 @@ section {
     border-radius: 20px;
     box-shadow: 0 0 9px #2e2e2e;
     z-index: 3;
+	width: 100%;
+    overflow: hidden;
 }
 
 section .sectiontitle {
