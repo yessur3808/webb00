@@ -118,6 +118,7 @@ section .sectionsubheader{
     position: relative;
     display: block;
     width: 100%;
+	margin-bottom: 32px;
 }
 
 
