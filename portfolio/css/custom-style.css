@@ -1367,7 +1367,7 @@ footer .counters .sepLine{
 footer .counters .counter{
     position: relative;
     width: 260px;
-    height: 220px;
+    height: 220px !important;
     padding: 20px 4px;
     display: inline-block;
     margin: 8px;
@@ -1489,7 +1489,8 @@ footer .counters .counter .num span{}
 
 	.featuredProjects .bgSwiper{
 		display: block;
-		height: 360px;
+		height: unset;
+		padding-top: 24px;
 	}
 	
 	.featuredProjects .bgSwiper img{
@@ -1671,12 +1672,45 @@ footer .counters .counter .num span{}
 	}
 	
 	
+	.featuredProjects .projects0 .project0 .projectinfo h3{
+		font-size: 18px;
+		text-shadow: none;
+		color: #eee;
+
+	}
 	
+	.featuredProjects .projects0 .project0 .projectinfo .desc{
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: -0.1px;
+	}
+		
 	
+}
+
+@media screen and (max-width: 500px){
+	
+	.featuredProjects .bgSwiper{
+		display: block;
+		height: unset;
+		padding-top: 24px;
+	}
+	
+
 }
 
 
 
+@media screen and (max-width: 400px){
+	.featuredProjects .projects0 .project0 .projectinfo .desc{
+		display: none;
+	}
+	.featuredProjects .projects0 .project0 .projectinfo h3{
+		font-size: 22px;
+	}
+	
+	
+}
 
 
 

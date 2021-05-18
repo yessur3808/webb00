@@ -1893,7 +1893,7 @@ footer .counters .counter .num span{}
 	
 	#experience .jobs__StyledTabList li{
 		display: inline-block;
-		width: 25%;
+		width: auto;
 	}
 	
 	#experience .positions .jobsTabContent{
@@ -1970,7 +1970,7 @@ footer .counters .counter .num span{}
 	#experience .jobs__StyledTabList{
 		display: flex;
 		width: 500px;
-		padding-left: 50px;
+		padding-left: 0;
 	}
 	
 	
