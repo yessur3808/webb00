@@ -1637,6 +1637,8 @@ footer .counters .counter .num span{}
 		box-shadow: none;
 		border-bottom: 1px solid #636363;
 		border-radius: 0;
+		position: sticky !important;
+		left: 0;
 	}
 	
 	#mainNav{
