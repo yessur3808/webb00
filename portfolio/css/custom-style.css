@@ -12,6 +12,7 @@ body {
     color: #eee;
 	overflow-x: hidden;
 	width: 100vw;
+	max-width: 100vw;
     position: relative;
 }
 
@@ -89,7 +90,8 @@ section {
     box-shadow: 0 0 9px #2e2e2e;
     z-index: 3;
 	width: 100%;
-    overflow: hidden;
+	
+    /* overflow: hidden; */
 }
 
 section .sectiontitle {
@@ -1544,6 +1546,7 @@ footer .counters .counter .num span{}
 	
 	.featuredProjects .control{
 		top: 30%;
+		box-shadow: 0 0 5px #222;
 	}
 	
 	
