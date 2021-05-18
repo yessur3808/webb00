@@ -335,7 +335,8 @@ function expControl(){
 	$('#experience .jobs__StyledTabList li .jobTab').on(PlatformEvent, function(){
 		var curindex = $(this).attr('tabindex');
 		$('#experience .innerTabs').removeClass('tab0 tab1 tab2 tab3 tab4 tab5');
-		$('#experience .innerTabs').addClass('tab'+curindex);		
+		$('#experience .innerTabs').addClass('tab'+curindex);	
+		YIUtils.ga.click("yaser", config.name, "Choose job tab : "+curindex);		
 	});
 	
 }
@@ -441,14 +442,14 @@ function smoothScroll(){
 
 	document.querySelector('.hamburger').addEventListener('click', function() {
 		this.classList.toggle('opened');
-		// YIUtils.ga.click('yaser','Navigation Mobile',"Open Menu" );
+		YIUtils.ga.click('yaser','Navigation Mobile',"Open Menu" );
 	});
   
 	// Closes responsive menu when a scroll trigger link is clicked
 	document.querySelector('.js-scroll-trigger').addEventListener('click' ,function() {
 		$('.navbar-collapse').collapse('hide');
 		document.querySelector('.hamburger').classList.remove('opened');
-		// YIUtils.ga.click('yaser','Navigation',"Scroll Trigger" );
+		YIUtils.ga.click('yaser','Navigation',"Scroll Trigger" );
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
