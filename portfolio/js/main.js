@@ -356,6 +356,23 @@ function smoothScroll(){
 			$("#mainNav").removeClass("navbar-shrink");
 		}
 	};
+	
+	
+	var btn = $('#bcktotop');
+
+	$(window).scroll(function() {
+	  if ($(window).scrollTop() > 300) {
+		btn.addClass('show');
+	  } else {
+		btn.removeClass('show');
+	  }
+	});
+
+	btn.on('click', function(e) {
+	  e.preventDefault();
+	  $('html, body').animate({scrollTop:0}, '400');
+	});
+		
 	// Collapse now if page is not at top
 	navbarCollapse();
 	// Collapse the navbar when page is scrolled
