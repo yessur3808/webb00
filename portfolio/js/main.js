@@ -327,6 +327,8 @@ function smoothScroll(){
 			// YIUtils.ga.click('pageview',config.name,'Navigation',"Nav Button "+target );
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if(target.length) {
+				 
+				YIUtils.ga.click('yaser', config.name, "Scroll: "+target );
 				$('html, body').animate({
 					scrollTop: (target.offset().top - 70)
 				}, 1000, "easeInOutExpo");
