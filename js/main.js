@@ -429,7 +429,7 @@ function smoothScroll(){
 	$('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function(){
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname){
 			var target = $(this.hash);
-			// YIUtils.ga.click('yaser','Navigation',"Nav Button "+target );
+			YIUtils.ga.click('yaser', config.name,'Navigation',"Nav Button "+target );
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if(target.length) {
 				$('html, body').animate({
@@ -442,14 +442,14 @@ function smoothScroll(){
 
 	document.querySelector('.hamburger').addEventListener('click', function() {
 		this.classList.toggle('opened');
-		// YIUtils.ga.click('pageview', config.name,'Navigation Mobile',"Open Menu" );
+		YIUtils.ga.click('yaser', config.name,'Navigation Mobile',"Open Menu" );
 	});
   
 	// Closes responsive menu when a scroll trigger link is clicked
 	document.querySelector('.js-scroll-trigger').addEventListener('click' ,function() {
 		$('.navbar-collapse').collapse('hide');
 		document.querySelector('.hamburger').classList.remove('opened');
-		// YIUtils.ga.click('pageview', config.name,'Navigation',"Scroll Trigger" );
+		YIUtils.ga.click('yaser', config.name,'Navigation',"Scroll Trigger" );
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
