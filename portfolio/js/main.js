@@ -70,7 +70,7 @@ function prevFrame() {
   if(_.isObject(config.swipers.frames) && _.isObject(config.swipers.frames.slides) && !_.isEmpty(config.swipers.frames.slides)
     && _.isFinite(config.swipers.frames.activeIndex) && config.swipers.frames.activeIndex >= 0 && config.swipers.frames.activeIndex < config.swipers.frames.slides.length){ 
 
-		// YIUtils.ga.click("pageview", config.name, "prev frame - " + config.swipers.frames.activeIndex); 
+		YIUtils.ga.click("yaser", config.name, "prev frame - " + config.swipers.frames.activeIndex); 
 		config.current.round++; 
 		setFrame(config.swipers.frames.activeIndex); 
 
@@ -82,7 +82,7 @@ function nextFrame() {
     && _.isFinite(config.swipers.frames.activeIndex) && config.swipers.frames.activeIndex >= 0 && config.swipers.frames.activeIndex < config.swipers.frames.slides.length){
 		
 
-		// YIUtils.ga.click("pageview",  config.name, "next frame - " + config.swipers.frames.activeIndex);
+		YIUtils.ga.click("yaser",  config.name, "next frame - " + config.swipers.frames.activeIndex);
 		config.current.round++;
 		setFrame(config.swipers.frames.activeIndex);
 		
@@ -156,10 +156,7 @@ function dataInput(){
 			if(counter === 0){ hide = 'active'; }
 			if(curimg && curimg === ""){ curimg = "../img/aiwave.gif"; }
 			if(curdesc && curdesc === ""){ curdesc = "This is where the description goes..."; }
-			
-			
-		
-			
+
 			projArr += '<div id="project'+counter+'" class="project0 swiper-slide '+curdata.type+' '+hide+'" data-img="'+curimg+'" data-type="'+curdata.type+'"><img src="'+curimg+'">';
 
 			projArr += '<div class="projectinfo">'
@@ -236,10 +233,7 @@ function portfolioControls(){
 	grid.isotope({
 		itemSelector: '.project',
 		layoutMode: 'masonry',
-		masonry: {
-			columnWidth: '.project',
-			isFitWidth: true
-		}
+		masonry: { columnWidth: '.project',isFitWidth: true }
 	});
 	
 	$('.filterMenu').on('change', function(){
@@ -250,7 +244,7 @@ function portfolioControls(){
 		}else{
 			grid.isotope({ filter: '*' });
 		}
-		// YIUtils.ga.click("pageview", config.name, "Filter choosen to view : "+curChoice);
+		YIUtils.ga.click("yaser", config.name, "Filter choosen to view : "+curChoice);
 	});
 	
 	$('.filtering .filter').on('click', function(){
@@ -260,14 +254,14 @@ function portfolioControls(){
 			grid.isotope({ filter: '*' });
 			$('.filterMenu').val(curfilter);
 			$('.filterMenu select option #'+curfilter).prop('selected', true);
-			// YIUtils.ga.click("pageview", config.name, "Filter choosen to view : all");
+			YIUtils.ga.click("yaser", config.name, "Filter choosen to view : all");
 		}else{
 			$('.filtering .filter').removeClass('active');
 			this.classList.add('active');
 			grid.isotope({ filter: '.'+curfilter });
 			$('.filterMenu').val(curfilter);
 			$('.filterMenu select option #'+curfilter).prop('selected', true);
-			// YIUtils.ga.click("pageview", config.name, "Filter choosen to view : "+curfilter);
+			YIUtils.ga.click("yaser", config.name, "Filter choosen to view : "+curfilter);
 		}
 	});
 
@@ -275,7 +269,7 @@ function portfolioControls(){
 
 
 function initTracking() {
-	YIUtils.ga.pageview("25th Apr 2021", "Yaser Ibrahim");
+	YIUtils.ga.pageview_yaser("20 May 2021", "Yaser Ibrahim", "Portfolio", config.name); 
 	check_url();
 }
 function check_url(){
@@ -318,6 +312,14 @@ function langControl(){
 
 
 function smoothScroll(){
+	
+	$('a').on('click', function(){
+		var curlink = $(this).attr('href');
+		if(curlink.indexOf('http') > -1){
+			YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
+		}
+	});
+	
   // Smooth scrolling using jQuery easing
 	$('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function(){
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname){
@@ -335,14 +337,14 @@ function smoothScroll(){
 
 	document.querySelector('.hamburger').addEventListener('click', function() {
 		this.classList.toggle('opened');
-		// YIUtils.ga.click('pageview',config.name,'Navigation Mobile',"Open Menu" );
+		YIUtils.ga.click('yaser',config.name,"Open Menu" );
 	});
   
 	// Closes responsive menu when a scroll trigger link is clicked
 	document.querySelector('.js-scroll-trigger').addEventListener('click' ,function() {
 		$('.navbar-collapse').collapse('hide');
 		document.querySelector('.hamburger').classList.remove('opened');
-		// YIUtils.ga.click('pageview', config.name,'Navigation',"Scroll Trigger" );
+		YIUtils.ga.click('yaser', config.name,"Scroll Trigger" );
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
