@@ -242,7 +242,7 @@ function dataInput(){
 }
 
 function initTracking() {
-	YIUtils.ga.pageview("13th May 2021", "Yaser Ibrahim");
+	YIUtils.ga.pageview_yaser("20 May 2021", "Yaser Ibrahim", "Personal Site", config.name); 
 	check_url();
 }
 

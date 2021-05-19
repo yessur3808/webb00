@@ -12,6 +12,7 @@ window.YIUtils = {
     },
     ga: {
         yaser: "UA-87337945-1",
+		pageview_yaser:function(e,t,n,o,i,r){return this.pageview("yaser",e,t,n,o,i,r)},
         pageview: function(t, n, e, i, o) {
             var a, r, c, s, u, l;
             t in this && (a = window, r = document, c = "script", s = "http" + ("https:" === location.protocol ? "s" : "") + "://www.google-analytics.com/analytics.js", "ga", a.GoogleAnalyticsObject = "ga", a.ga = a.ga || function() {
