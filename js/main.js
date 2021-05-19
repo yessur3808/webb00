@@ -428,7 +428,7 @@ function smoothScroll(){
 	
 	$('a').on('click', function(){
 		var curlink = $(this).attr('href');
-		if(curlink.indexOf('http') > -1){
+		if(curlink && curlink.indexOf('http') > -1){
 			YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
 		}
 	});
