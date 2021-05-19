@@ -336,7 +336,7 @@ function expControl(){
 		var curindex = $(this).attr('tabindex');
 		$('#experience .innerTabs').removeClass('tab0 tab1 tab2 tab3 tab4 tab5');
 		$('#experience .innerTabs').addClass('tab'+curindex);	
-		// YIUtils.ga.click("pageview", config.name, "Choose job tab : "+curindex);		
+		YIUtils.ga.click("yaser", config.name, "Choose job tab : "+curindex);		
 	});
 	
 }
@@ -425,6 +425,15 @@ function allProjects(){
 
 
 function smoothScroll(){
+	
+	$('a').on('click', function(){
+		var curlink = $(this).attr('href');
+		if(curlink.indexOf('http') > -1){
+			YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
+		}
+	});
+	
+	
   // Smooth scrolling using jQuery easing
 	$('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function(){
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname){
@@ -442,14 +451,14 @@ function smoothScroll(){
 
 	document.querySelector('.hamburger').addEventListener('click', function() {
 		this.classList.toggle('opened');
-		YIUtils.ga.click('yaser', config.name,'Navigation Mobile',"Open Menu" );
+		YIUtils.ga.click('yaser', config.name,"Open Menu" );
 	});
   
 	// Closes responsive menu when a scroll trigger link is clicked
 	document.querySelector('.js-scroll-trigger').addEventListener('click' ,function() {
 		$('.navbar-collapse').collapse('hide');
 		document.querySelector('.hamburger').classList.remove('opened');
-		YIUtils.ga.click('yaser', config.name,'Navigation',"Scroll Trigger" );
+		YIUtils.ga.click('yaser', config.name,"Scroll Trigger" );
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
