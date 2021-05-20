@@ -1708,7 +1708,9 @@ footer .counters .counter .num span{}
 		border-bottom: 1px solid #777;
 	}
 
-		
+	.swipenav{
+		padding: 0 50px;
+	}
 }
 
 
