@@ -304,6 +304,7 @@ function langControl(){
 		$('body').addClass('eng');
 		$('body').removeClass('ar');
 	});
+	
 	$('.arabicLang').on(PlatformEvent, function(){
 		$('body').removeClass('eng');
 		$('body').addClass('ar');
@@ -313,10 +314,31 @@ function langControl(){
 
 function smoothScroll(){
 	
-	$('a').on('click', function(){
+	$('.model00 a').on('click', function(){
 		var curlink = $(this).attr('href');
 		if(curlink && curlink.indexOf('http') > -1){
-			YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
+			YIUtils.ga.click('yaser', config.name, "Social Link: "+curlink );
+		}
+	});
+	
+	$('#contactme .emailme a').on('click', function(){
+		var curlink = $(this).attr('href');
+		if(curlink && curlink.indexOf('http') > -1){
+			YIUtils.ga.click('yaser', config.name, "Social Link: "+curlink );
+		}
+	});
+	
+	$('#contactme .social-nav a').on('click', function(){
+		var curlink = $(this).attr('href');
+		if(curlink && curlink.indexOf('http') > -1){
+			YIUtils.ga.click('yaser', config.name, "Footer Social Link: "+curlink );
+		}
+	});
+	
+	$('#portfolioContainter .projects.grid .project a').on('click', function(){
+		var curlink = $(this).attr('href');
+		if(curlink && curlink.indexOf('http') > -1){
+			YIUtils.ga.click('yaser', config.name, "Project Link: "+curlink );
 		}
 	});
 	
@@ -360,10 +382,8 @@ function smoothScroll(){
 			$("#mainNav").removeClass("navbar-shrink");
 		}
 	};
-	
-	
-	var btn = $('#bcktotop');
 
+	var btn = $('#bcktotop');
 	$(window).scroll(function() {
 	  if ($(window).scrollTop() > 300) {
 		btn.addClass('show');

@@ -526,8 +526,6 @@ header .desc {
     color: #c5c6c8;
     display: block;
     position: relative;
-	
-	
 }
 
 #portfolioContainter .topMenu{
@@ -1706,6 +1704,19 @@ footer .counters .counter .num span{}
 @media screen and (max-width: 768px) {
 	.navbar-light .navbar-nav .nav-link span{ top:5px; }
 	.navbar-light .navbar-nav .nav-link.active span{ left:20%;width:60%; }
+		
+	#portfolioContainter{
+		position: relative;
+		padding: 0 !important;
+	}
+		
+	.removeflowcontainer{
+		overflow: hidden;
+		max-width: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
 		
 	#mainNav .nav-link:hover{
 		background-color: rgba(255,255, 255, 0.1);
