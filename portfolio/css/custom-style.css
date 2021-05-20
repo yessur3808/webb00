@@ -1783,16 +1783,7 @@ footer .counters .counter .num span{}
 	
 }
 
-@media screen and (max-width: 500px){
-	
-	.featuredProjects .bgSwiper{
-		display: block;
-		height: unset;
-		padding-top: 24px;
-	}
-	
 
-}
 
 
 
