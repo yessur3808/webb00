@@ -1559,9 +1559,10 @@ footer .counters .counter .num span{}
 	.featuredProjects .bgSwiper{
 		display: block;
 		height: unset;
-		margin: 0 5%;
+		margin: 0 40px;
 		padding-top: 24px;
-		width: 90%;
+		box-sizing: border-box;
+		width: auto;
 	}
 	
 	.featuredProjects .bgSwiper img{
