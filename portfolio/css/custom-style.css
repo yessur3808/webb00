@@ -1708,6 +1708,7 @@ footer .counters .counter .num span{}
 		border-bottom: 1px solid #777;
 	}
 
+	.featuredProjects .swipenav,
 	.swipenav{
 		padding: 0 50px;
 	}
