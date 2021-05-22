@@ -1717,6 +1717,15 @@ footer .counters .counter .num span{}
 	.swipenav{
 		padding: 0 50px;
 	}
+	
+	section {
+		margin: 0 auto;
+		padding: 42px 0 !important;
+		padding: 42px 24px !important;
+		box-shadow: none;
+		border-bottom: 1px solid #636363;
+		border-radius: 0;
+	}
 }
 
 
@@ -1797,7 +1806,14 @@ footer .counters .counter .num span{}
 }
 
 
-
+@media screen and (max-width: 576px){
+	section {
+		padding: 42px 24px !important;
+		box-shadow: none;
+		border-bottom: 1px solid #636363;
+		border-radius: 0;
+	}
+}
 
 
 @media screen and (max-width: 400px){
