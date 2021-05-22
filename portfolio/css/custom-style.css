@@ -1758,6 +1758,10 @@ footer .counters .counter .num span{}
 		margin: 0 auto;
 	}
 	
+	section .sectionsubheader{
+		margin: 0 15px;
+	}
+	
 }
 
 
