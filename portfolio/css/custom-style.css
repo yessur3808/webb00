@@ -1693,7 +1693,9 @@ footer .counters .counter .num span{}
 	}
 	
 	section .sectiontitle{
-		font-size: 1.8rem;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	section .sectiontitle:after{
