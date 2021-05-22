@@ -1502,6 +1502,10 @@ footer .counters .counter .num span{}
 
 
 
+.directionArrow{
+	display: none;
+}
+
 
 .skillsrow{
 	position: relative;
@@ -1780,6 +1784,17 @@ footer .counters .counter .num span{}
 		
 	#portfolio .projects .project img{
 		display:none;
+	}
+	
+	
+	.directionArrow{
+		position: absolute;
+		top: -33px;
+		width: 100%;
+		height: 32px;
+		z-index: 20;
+		/* display: block; */
+		text-align: center;
 	}
 
 }
