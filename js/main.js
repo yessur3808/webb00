@@ -301,7 +301,7 @@ function inputPositions(){
 			
 			jobCtrl += '<li><button id="tab-'+i+'" role="tab" aria-selected="true" aria-controls="panel-'+i+'" tabindex="'+i+'" class="jobTab workTab"><span>'+job.smallname+'</span><i class="fas fa-suitcase"></i></button></li>';
 			
-			jobExp += '<div id="panel-'+i+'" role="tabpanel" tabindex="'+i+'" aria-labelledby="tab-'+i+'" aria-hidden="false" class="jobsTabContent"><h3><span>'+job.position+'</span><span class="company"><a href="'+job.website+'" class="inline-link">&nbsp;@&nbsp;'+job.company+'</a></span></h3><p class="range">'+date0+' - '+date1+'</p><div>'+tempPoints+'</div><div class="skills">'+skillsTemp+'</div></div>';
+			jobExp += '<div id="panel-'+i+'" role="tabpanel" tabindex="'+i+'" aria-labelledby="tab-'+i+'" aria-hidden="false" class="jobsTabContent"><h3><span>'+job.position+'</span><span class="company"><a href="'+job.website+'" class="inline-link" target="_blank" rel="noreferrer noopener">&nbsp;@&nbsp;'+job.company+'</a></span></h3><p class="range">'+date0+' - '+date1+'</p><div>'+tempPoints+'</div><div class="skills">'+skillsTemp+'</div></div>';
 		}
 		if(job.type === "edu"){
 			var date0 = moment(job.dates[0],'YYYY').format('YYYY'), date1 = job.dates[1];
