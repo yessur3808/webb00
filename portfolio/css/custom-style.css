@@ -1465,6 +1465,11 @@ footer .counters .counter .num span{}
 }
 
 
+.directionArrow{
+	display: none;
+}
+
+
 @media screen and (min-width: 992px) {
 	#mainNav {
 		padding-top: 0;
