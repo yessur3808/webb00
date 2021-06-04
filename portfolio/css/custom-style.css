@@ -9,8 +9,6 @@ html, body{
     left: 0;
 }
 
-
-
 body {
     font-family: 'Lato', sans-serif;
     background: #343d42;
@@ -47,13 +45,11 @@ footer{
     overflow: hidden;
 }
 
-
-
-
 .loading {
   display: flex;
   justify-content: center;
 }
+
 .loading div {
   width: 1rem;
   height: 1rem;
@@ -178,7 +174,6 @@ header {
     /* box-shadow: 0px 0px 17px 4px #333; */
 }
 
-
 .selfintro .overlay {
     position: absolute;
     top: 0;
@@ -189,10 +184,8 @@ header {
 
 header .profilePic {
     position: relative;
-	display: inline-block;
+    display: inline-block;
 }
-
-
 
 header .profilePic img {
     position: relative;
@@ -203,7 +196,6 @@ header .profilePic img {
     object-fit: cover;
     object-position: -48px;
 }
-
 
 .masthead h1 {
     font-family: 'Montserrat', sans-serif;
@@ -339,28 +331,9 @@ header .desc {
    animation: finger 1s infinite;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
     position: relative;
 }
-
 
 #mainNav {
 	min-height: 56px;
@@ -371,8 +344,6 @@ header .desc {
     border-bottom: 1px solid #666;
 }
 
-
-
 #mainNav .navbar-toggler { 
 	font-size: 80%;
 	padding: 0.75rem;
@@ -380,7 +351,9 @@ header .desc {
 	border: none;
 	background: rgba(255, 255, 255, 0); 
 }
+
 #mainNav .navbar-toggler:focus { outline: none; }
+
 #mainNav .navbar-brand {     
 	color: #fff;
     font-weight: 700;
@@ -390,10 +363,8 @@ header .desc {
 }
 #mainNav .navbar-nav .nav-item:hover { color: fade(white, 80%);outline: none;background-color: transparent;}
 
-
-
 #mainNav .navbar-brand .logo{
-	position: relative;
+    position: relative;
     width: 56px;
     height: 56px;
     overflow: hidden;
@@ -402,7 +373,7 @@ header .desc {
 }
 
 #mainNav .navbar-brand .logo img{
-	position: relative;
+    position: relative;
     width: 56px;
     height: 56px;
     overflow: hidden;
@@ -410,10 +381,7 @@ header .desc {
     display: block;
 }
 
-
 #mainNav .navbar-brand .name{}
-
-
 
 #mainNav .navbar-brand:after {
     content: "";
@@ -427,12 +395,10 @@ header .desc {
     width: 0.8rem;
 }
 
-
 #mainNav .nav-link.nothere{
 	color: #fff;
     text-shadow: 0 0 4px #ffffff;
 }
-
 
 .navbar-light .navbar-nav .nav-link.active{
 	color: #fff;
@@ -459,7 +425,6 @@ header .desc {
 	color:rgba(255,255,255,0.8);
 }
 
-
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
@@ -484,6 +449,7 @@ header .desc {
   transition: all 0.25s ease-in-out 0s;
   transform: rotate(0deg);
 }
+
 .hamburger span:nth-child(1) {
   margin-top: 0px;
 }
@@ -507,22 +473,17 @@ header .desc {
   margin-top: 16px;
 }
 
-
-
 #mainNav .nav-link{
-	text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
-	text-align: center;
+    text-align: center;
     color: #eee;
-	transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
-
-
-
 #portfolioContainter{
-	padding: 10rem 0;
+    padding: 10rem 0;
     color: #c5c6c8;
     display: block;
     position: relative;
@@ -542,19 +503,16 @@ header .desc {
     z-index: 1;
 }
 
-
-
 #portfolioContainter .topMenu .filterMenu{
-	position: relative;
+    position: relative;
     display: none;
     right: 0;
     height: 36px;
     text-align: left;
 }
 
-
 #portfolioContainter .topMenu .filterMenu .name{
-	position: relative;
+    position: relative;
     display: inline-block;
     line-height: 37px;
     font-size: 15px;
@@ -564,9 +522,8 @@ header .desc {
     transition: all 0.5s ease;
 }
 
-
 #portfolioContainter .topMenu .filterMenu select{
-	vertical-align: top;
+    vertical-align: top;
     box-sizing: border-box;
     outline: 0;
     background-color: #404a52;
@@ -599,25 +556,11 @@ header .desc {
     user-select: none;
 }
 
-
 #portfolioContainter .topMenu .filterMenu option{
     background-color: #384148;
     color: #ffffff;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #portfolioContainter .projects{
 	position: relative;
@@ -649,7 +592,6 @@ header .desc {
     box-shadow: 0 0 5px #101416;
 	transition:  box-shadow 0.3s ease;
 }
-
 
 #portfolioContainter .projects.grid .project .innerContainer{
 	position: relative;
@@ -1560,7 +1502,7 @@ footer .counters .counter .num span{}
 
 	.featuredProjects .bgSwiper{
 		display: block;
-		height: unset;
+		height: 320px;
 		margin: 0 40px;
 		padding-top: 24px;
 		box-sizing: border-box;
