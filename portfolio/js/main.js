@@ -141,7 +141,7 @@ function dataInput(){
 		
 		var curname = curdata.name,
 		curid = curdata.id,
-		cururl = curdata.url,
+		cururl = ((curdata.url.indexOf('?') > -1) ? (curdata.url+'&dev=true') : (curdata.url+'?dev=true')),
 		curDate = (curdata.date) ? moment(curdata.date, "DD/MM/YYYY").format('Do MMM, YYYY') : "",
 		techstack = curdata["tech stack"].split(';'),
 		curbelongs = (curdata.belongs) ? (curdata.belongs) : 'personal',
