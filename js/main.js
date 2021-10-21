@@ -21,7 +21,7 @@ var config = {
 			desc:"Description",
 			
 			points: [
-				" My work varies from front-end to backend. On the frontend I worked on registration-styled forms with ReactJS and the main website via wordpress. Backend I have worked on a revamp for the website's KYC process developing APIs with NodeJS & ExpressJS and a MongoDB database for flexibility.", 
+				" My work consists of both front & backend. On the frontend I worked on registration-styled forms with ReactJS and the main website via wordpress. Backend I have worked on a revamp for the website's KYC process developing APIs with NodeJS & ExpressJS and a MongoDB database for flexibility.", 
 				
 				"I have worked on an internal portal for our finance dept to be able to view the different applicants along with their applications and related details.",
 				"Data science operations, handling major amounts of data and assist with data analysis.",
