@@ -12,12 +12,62 @@ var config = {
 			{name:"Raspberry PI",per: 30}
 		],
 	workExp: [{
+		type:"work",
+			position:"Full Stack Software Engineer",
+			company:"AI Link Group Ltd.",
+			smallname: "TradeFi",
+			location:"Hong Kong",
+			dates:["08/2021", "current"],
+			desc:"Description",
+			
+			points: [
+				" My work varies from front-end to backend. On the frontend I worked on registration-styled forms with ReactJS and the main website via wordpress. Backend I have worked on a revamp for the website's KYC process developing APIs with NodeJS & ExpressJS and a MongoDB database for flexibility.", 
+				
+				"I have worked on an internal portal for our finance dept to be able to view the different applicants along with their applications and related details.",
+				"Data science operations, handling major amounts of data and assist with data analysis.",
+				
+				"Assist previous Data scientist with some python scripts",
+				"Design a new Database Schema for the current site for more efficiency",
+				"Help with Azure cloud setup for our research team's requirements"
+			],
+			
+			imgSrc:"https://www.tradefi.com/wp-content/uploads/2020/10/logo_kyc_form.png",
+			website:"https://www.tradefi.com/",
+			skills: [
+				{ skillname:'HTML5', per:84 },
+				{ skillname:'CSS3', per:76 },
+				{ skillname:'SCSS', per:50 },
+				{ skillname:'Javascript', per:72 },
+				{ skillname:'ReactJS', per:70 },
+				{ skillname:'GatsbyJS', per: 74 },
+				{ skillname:'Pug', per:50 },
+				{ skillname:'JQuery', per:72 },
+				{ skillname:'NodeJS', per:66 },
+				{ skillname:'ExpressJS', per:66 },
+				{ skillname:'Wordpress', per:70 },
+				{ skillname:'Websockets', per:50 },
+				{ skillname:'MySQL', per: 20 },
+				{ skillname:'Azure', per: 20 },
+				{ skillname:'MongoDB', per: 20 },
+				{ skillname:'Schema Design', per: 20 },
+				{ skillname:'UI/UX', per: 20 },
+				{ skillname:'Git', per: 20 },
+				{ skillname:'Research', per: 72 },
+				{ skillname:'Problem Solving', per: 70 },
+				{ skillname:'Troubleshooting', per:70 },
+				{ skillname:'Analytics', per:76 },
+				{ skillname:'Organization', per:80 },
+				{ skillname:'Creativity', per:70 },
+				{ skillname:"Ubuntu", per: 50 },
+				{ skillname:"Windows", per: 50 },
+			]
+			},{
 			type:"work",
-			position:"Software Engineer",
+			position:"Full Stack Software Engineer",
 			company:"South China Morning Post Ltd.",
 			smallname: "SCMP",
 			location:"Hong Kong",
-			dates:["07/2018", "current"],
+			dates:["07/2018", "07/2021"],
 			desc:"Description",
 			
 			points: [
@@ -37,11 +87,16 @@ var config = {
 				{ skillname:'Javascript', per:72 },
 				{ skillname:'JQuery', per:72 },
 				{ skillname:'NodeJS', per:66 },
+				{ skillname:'ExpressJS', per:66 },
 				{ skillname:'LoopbackJS', per:70 },
 				{ skillname:'D3js', per:70 },
 				{ skillname:'Google Sheets', per: 74 },
 				{ skillname:'Websockets', per:50 },
+				
+				{ skillname:'AliCloud', per:50 },
+				
 				{ skillname:'SQL', per: 20 },
+				{ skillname:'UI/UX', per: 20 },
 				{ skillname:'Git', per: 20 },
 				{ skillname:'Research', per: 72 },
 				{ skillname:'Problem Solving', per: 70 },
@@ -102,7 +157,6 @@ var config = {
 			smallname: "Creative Coding",
 			location:"Hong Kong",
 			dates:["05/2017 ","07/2017"],
-			
 			points: [
 				"I taught children from ages of 5 to 12 about basics of coding, robotics, mathematics, and science.",
 				"I had taught them many concepts using several learning tools such as mBot, Edison, Arduino, Raspberry Pi, etc...",
@@ -132,7 +186,6 @@ var config = {
 			smallname:"Sunny Day",
 			location:"Hong Kong",
 			dates:["02/2015","02/2017"],
-			
 			points :[
 				"I tutored people Arabic in speaking, reading, and writing.",
 				"Lesson plans were developed based on what they wanted to acheive after their classes.",
@@ -157,7 +210,6 @@ var config = {
 			dates:["2012","2017"],
 			website: "https://www.cityu.edu.hk/",
 			degree:"Bachelors of Electronic Engineering",
-			
 			points: [
 				"Learn the ability to apply knowledge of mathematics, science and engineering",
 				"Learn the ability to design and conduct experiments as well as to analyze and interpret data",
@@ -170,8 +222,6 @@ var config = {
 				"Recognition of the need for life-long learning",
 				"Learn the ability to use necessary engineering tools"
 			],
-			
-			
 			major: "Information Engineering",
 			skills: [
 				{ skillname: 'Engineering Mathematics', per:99.99 },
