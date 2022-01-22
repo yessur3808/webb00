@@ -1,6 +1,115 @@
 var projects_config = {
     data: [
+        
+        
+        
+        
+         {
+            name: "Guess The Number Terminal Game",
+            desc: "Guess the number game implemented in Rust.",
+            img: "",
+            url: "https://github.com/yessur3808/guess-the-number",
+            id: "YI0000101",
+            date: "22/01/2022",
+            type: "software",
+            keywords: "Rust, game",
+            backend: "FALSE",
+            frontend: "FALSE",
+            belongs: "personal",
+            "tech stack": "Rust",
+            featured: "",
+            accomplishments: "",
+        },
+        
+        
+        
+        
+        
+         {
+            name: "Bitcoin Playground Web App",
+            desc: "A “Bitcoin playground” web app that supports several functions.",
+            img: "",
+            url: "https://yessur3808.github.io/bitcoin-playground/",
+            id: "YI0000102",
+            date: "05/01/2022",
+            type: "webpage",
+            keywords: "ReactJS, GatsbyJS",
+            backend: "FALSE",
+            frontend: "TRUE",
+            belongs: "personal",
+            "tech stack": "ReactJS, GatsbyJS",
+            featured: "",
+            accomplishments: "",
+        },
       
+        
+        
+        
+        
+        {
+            name: "A simple Python based Neural Network",
+            desc: "A simple neural network trained with backpropagation, using input to predict output.",
+            img: "",
+            url: "https://github.com/yessur3808/Python-NN",
+            id: "YI0000103",
+            date: "24/05/2021",
+            type: "software",
+            keywords: "Python, Neural Network",
+            backend: "FALSE",
+            frontend: "FALSE",
+            belongs: "personal",
+            "tech stack": "Python",
+            featured: "",
+            accomplishments: "",
+        },
+        
+        
+        {
+            name: "URL Shortener",
+            desc: "A url shortener developed with python",
+            img: "",
+            url: "https://github.com/yessur3808/URL-Shortener",
+            id: "YI0000104",
+            date: "19/04/2021",
+            type: "software",
+            keywords: "Python, URL",
+            backend: "FALSE",
+            frontend: "FALSE",
+            belongs: "personal",
+            "tech stack": "Python",
+            featured: "",
+            accomplishments: "",
+        },
+        
+        
+         {
+            name: "Simple KeyLogger",
+            desc: "Simple keylogger made using python",
+            img: "",
+            url: "https://github.com/yessur3808/Simple-Keylogger",
+            id: "YI0000105",
+            date: "19/04/2021",
+            type: "software",
+            keywords: "Python, Keylogger",
+            backend: "FALSE",
+            frontend: "FALSE",
+            belongs: "personal",
+            "tech stack": "Python",
+            featured: "",
+            accomplishments: "",
+        },
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       {
             name: "Backend Coding Challenge",
             desc: "An internal API service that will be called by the game to progress a players quest.",
@@ -17,6 +126,28 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       
         {
             name: "Proportion of the Hong Kong population currently vaccinated",
