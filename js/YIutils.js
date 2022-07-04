@@ -10,9 +10,15 @@ window.YIUtils = {
         var e = $("<input>");
         $("body").append(e), e.val(t).select(), document.execCommand("copy"), e.remove(), "function" == typeof n && n()
     },
+	
     ga: {
         yaser: "UA-87337945-1",
 		pageview_yaser:function(e,t,n,o,i,r){return this.pageview("yaser",e,t,n,o,i,r)},
+	
+	 ga_4: function() {
+            window.dataLayer = window.dataLayer || []; function gtag() { window.dataLayer.push(arguments); } gtag('js', new Date());gtag('config', '321766079');
+        },
+	
         pageview: function(t, n, e, i, o) {
             var a, r, c, s, u, l;
             t in this && (a = window, r = document, c = "script", s = "http" + ("https:" === location.protocol ? "s" : "") + "://www.google-analytics.com/analytics.js", "ga", a.GoogleAnalyticsObject = "ga", a.ga = a.ga || function() {
