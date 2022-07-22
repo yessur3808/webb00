@@ -8,7 +8,7 @@ This website is an online version of my resume/cv it is used to display more det
 
 
 
-### I am a Full Stack Web Developer & Software Engineer
+### I am a Full Stack Software Engineer
 
 
 
