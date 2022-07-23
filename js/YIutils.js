@@ -21,7 +21,7 @@ window.YIUtils = {
 	
         pageview: function(t, n, e, i, o) {
             var a, r, c, s, u, l;
-            t in this && (a = window, r = document, c = "script", s = "http" + ("https:" === location.protocol ? "s" : "") + "://www.google-analytics.com/analytics.js", "ga", a.GoogleAnalyticsObject = "ga", a.ga = a.ga || function() {
+            t in this && (a = window, r = document, c = "script", s = "http" + ("https:" === location.protocol ? "s" : "") + "://www.googletagmanager.com/gtag/js?id=321766079", "ga", a.GoogleAnalyticsObject = "ga", a.ga = a.ga || function() {
                 (a.ga.q = a.ga.q || []).push(arguments)
             }, a.ga.l = 1 * new Date, u = r.createElement(c), l = r.getElementsByTagName(c)[0], u.async = 1, u.src = s, l.parentNode.insertBefore(u, l), ga("create", this[t], "auto"), ga("set", "dimension1", "anonymous"), n && "" != n && ga("set", "dimension2", n), e && "" != e && ga("set", "dimension3", e), i && "" != i && ga("set", "dimension4", i), o && "" != o && ga("set", "dimension5", o), ga("send", "pageview"))
         },
