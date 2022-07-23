@@ -22,7 +22,7 @@ var config = {
 			desc:"Description",
 			points: [
 				" My work consists of both frontend & backend.",
-				" Projects I have worked on <br/> <ul><li>•  DEFI Chain Desktop Wallet</li><li>•  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>•  Assist team members on other projects and general work</li><li>•  Data visualisations</li><li>•  Governance Proposals</li><li>•  Assist on UI/UX design when needed</li><li>•  Help with translations</li><li>•  Share knowledge on tools & technologies where needed</li></ul>"
+				" Projects I have worked on <br/> <ul><li>  DEFI Chain Desktop Wallet</li><li>  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>  Assist team members on other projects and general work</li><li>  Data visualisations</li><li>•  Governance Proposals</li><li>  Assist on UI/UX design when needed</li><li>  Help with translations</li><li>  Share knowledge on tools & technologies where needed</li></ul>"
 			],
 			imgSrc:"https://static.crypto.com/layout/navbar/company-logos/white.svg",
 			website:"https://crypto.com/",
