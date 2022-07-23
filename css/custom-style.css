@@ -548,6 +548,29 @@ b{ font-weight:600; }
 	 transform: translateY(calc(5 * 62px));
 }
 
+#experience .innerTabs.tab6 .jobs__StyledHighlight{
+    transform: translateY(calc(6 * 62px));
+}
+
+#experience .innerTabs.tab7 .jobs__StyledHighlight{
+    transform: translateY(calc(7 * 62px));
+}
+
+#experience .innerTabs.tab8 .jobs__StyledHighlight{
+    transform: translateY(calc(8 * 62px));
+}
+#experience .innerTabs.tab9 .jobs__StyledHighlight{
+    transform: translateY(calc(9 * 62px));
+}
+
+#experience .innerTabs.tab10 .jobs__StyledHighlight{
+    transform: translateY(calc(10 * 62px));
+}
+
+#experience .innerTabs.tab11 .jobs__StyledHighlight{
+    transform: translateY(calc(11 * 62px));
+}
+
 
 #experience .jobs__StyledTabList li{
 	
@@ -600,7 +623,13 @@ b{ font-weight:600; }
 #experience .innerTabs.tab2 .jobs__StyledTabList li #tab-2,
 #experience .innerTabs.tab3 .jobs__StyledTabList li #tab-3,
 #experience .innerTabs.tab4 .jobs__StyledTabList li #tab-4,
-#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-5{
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-5,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-6,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-7,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-8,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-9,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-10,
+#experience .innerTabs.tab5 .jobs__StyledTabList li #tab-11{
 	color: #51bbf9;
     text-shadow: 0 0 4px #8cd5ff;
 }
@@ -628,7 +657,13 @@ b{ font-weight:600; }
 #experience .innerTabs.tab2 .positions #panel-2,
 #experience .innerTabs.tab3 .positions #panel-3,
 #experience .innerTabs.tab4 .positions #panel-4,
-#experience .innerTabs.tab5 .positions #panel-5{
+#experience .innerTabs.tab5 .positions #panel-5,
+#experience .innerTabs.tab6 .positions #panel-6,
+#experience .innerTabs.tab7 .positions #panel-7,
+#experience .innerTabs.tab8 .positions #panel-8,
+#experience .innerTabs.tab9 .positions #panel-9,
+#experience .innerTabs.tab10 .positions #panel-10,
+#experience .innerTabs.tab11 .positions #panel-11{
 	display:inline-block;
 }
 

@@ -13,7 +13,7 @@ var projects_config = {
             backend: "FALSE",
             frontend: "FALSE",
             belongs: "personal",
-            "tech stack": "ReactJS, ElectronJS, NodeJS, Typescript, Javascript, LESS, CSS",
+            "tech stack": "ReactJS;ElectronJS;NodeJS;Typescript;Javascript;LESS;CSS",
             featured: "",
             accomplishments: "",
         },

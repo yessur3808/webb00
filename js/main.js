@@ -18,7 +18,7 @@ var config = {
 			company: "Crypto.com",
 			smallname: "Crypto.com",
 			location:"Hong Kong",
-			dates:["03/2022", "Current"],
+			dates: ["03/2022", "Current"],
 			desc:"Description",
 			points: [
 				" My work consists of both frontend & backend.",
@@ -374,7 +374,7 @@ function inputPositions(){
 	
 	for(var i = 0; i < config.workExp.length;i++){
 		var job = config.workExp[i], skillsTemp = '<h5> Used Skills </h5><br>';
-		
+
 		if(validateVal(job.skills) && Array.isArray(job.skills)){	
 			for(var j = 0; j < job.skills.length;j++){
 				var skill = job.skills[j];
@@ -391,17 +391,20 @@ function inputPositions(){
 			}
 			tempPoints += "</ul>";
 		}
-		
+
 		if(job.type === 'work'){
 			var date0 = moment(job.dates[0],'MM/YYYY').format('MMM, YYYY'), date1 = job.dates[1];
-			if(date1 != "current"){ date1 = moment(job.dates[1],'MM/YYYY').format('MMM, YYYY'); }
+			if(date1.toLowerCase().trim() != "current"){ date1 = moment(job.dates[1],'MM/YYYY').format('MMM, YYYY'); }
 			
 			jobCtrl += '<li><button id="tab-'+i+'" role="tab" aria-selected="true" aria-controls="panel-'+i+'" tabindex="'+i+'" class="jobTab workTab"><span>'+job.smallname+'</span><i class="fas fa-suitcase"></i></button></li>';
 			
 			jobExp += '<div id="panel-'+i+'" role="tabpanel" tabindex="'+i+'" aria-labelledby="tab-'+i+'" aria-hidden="false" class="jobsTabContent"><h3><span>'+job.position+'</span><span class="company"><a href="'+job.website+'" class="inline-link" target="_blank" rel="noreferrer noopener">&nbsp;@&nbsp;'+job.company+'</a></span></h3><p class="range">'+date0+' - '+date1+'</p><div>'+tempPoints+'</div><div class="skills">'+skillsTemp+'</div></div>';
 		}
+
 		if(job.type === "edu"){
 			var date0 = moment(job.dates[0],'YYYY').format('YYYY'), date1 = job.dates[1];
+			
+			console.log('edu');
 
 			jobCtrl += '<li><button id="tab-'+i+'" role="tab" aria-selected="true" aria-controls="panel-'+i+'" tabindex="'+i+'" class="jobTab eduTab"><span>'+job.smallname+'</span><i class="fas fa-school"></i></button></li>';
 			
@@ -431,7 +434,9 @@ function expControl(){
 	
 	$('#experience .jobs__StyledTabList li .jobTab').on(PlatformEvent, function(){
 		var curindex = $(this).attr('tabindex');
-		$('#experience .innerTabs').removeClass('tab0 tab1 tab2 tab3 tab4 tab5');
+		for(var i = 0; i < $('#experience .jobs__StyledTabList li ').length; i++){
+			$('#experience .innerTabs').removeClass('tab'+i);
+		}
 		$('#experience .innerTabs').addClass('tab'+curindex);	
 		YIUtils.ga.click("yaser", config.name, "Choose job tab : "+curindex);		
 	});
