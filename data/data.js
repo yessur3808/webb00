@@ -1,10 +1,24 @@
 var projects_config = {
     data: [
         
+        {
+            name: "Crypto.com DEFI Desktop Wallet",
+            desc: "A non-custodial desktop wallet that gives you access to a full suite of DeFi services in one place.",
+            img: "../img/cvrs/defi_wallet_desktop.png",
+            url: "https://github.com/crypto-com/chain-desktop-wallet",
+            id: "YI0000102",
+            date: "22/04/2022",
+            type: "software",
+            keywords: "electron, crypto, nodejs, reactjs, javascript, typescript",
+            backend: "FALSE",
+            frontend: "FALSE",
+            belongs: "personal",
+            "tech stack": "ReactJS, ElectronJS, NodeJS, Typescript, Javascript, LESS, CSS",
+            featured: "",
+            accomplishments: "",
+        },
         
-        
-        
-         {
+        {
             name: "Guess The Number Terminal Game",
             desc: "Guess the number game implemented in Rust.",
             img: "",
@@ -21,11 +35,8 @@ var projects_config = {
             accomplishments: "",
         },
         
-        
-        
-        
-        
-         {
+    
+        {
             name: "Bitcoin Playground Web App",
             desc: "A “Bitcoin playground” web app that supports several functions.",
             img: "",
@@ -82,7 +93,7 @@ var projects_config = {
         },
         
         
-         {
+        {
             name: "Simple KeyLogger",
             desc: "Simple keylogger made using python",
             img: "",
@@ -99,18 +110,7 @@ var projects_config = {
             accomplishments: "",
         },
       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      {
+        {
             name: "Backend Coding Challenge",
             desc: "An internal API service that will be called by the game to progress a players quest.",
             img: "",
@@ -126,28 +126,7 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+           
       
         {
             name: "Proportion of the Hong Kong population currently vaccinated",

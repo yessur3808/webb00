@@ -11,17 +11,33 @@ var config = {
 			{name:"Fedora",per: 75},
 			{name:"Raspberry PI",per: 30}
 		],
-	workExp: [{
+	workExp: [
+		{
+			type: "work",
+			position: "Blockchain Engineer",
+			company: "Crypto.com",
+			smallname: "Crypto.com",
+			location:"Hong Kong",
+			dates:["03/2022", "Current"],
+			desc:"Description",
+			points: [
+				" My work consists of both frontend & backend.",
+				" Projects I have worked on <br/> <ul><li>•  DEFI Chain Desktop Wallet</li><li>•  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>•  Assis team members on other projects and general work</li><li>•  Data visualisations</li><li>•  Governance Proposals</li><li>•  Assist on UI/UX design when needed</li><li>•  Help with translations</li><li>•  Share knowledge on tools & technologies where needed</li></ul>"
+			]
+		},
+		
+		
+		{
 		type:"work",
 			position:"Full Stack Software Engineer",
 			company:"AI Link Group Ltd.",
 			smallname: "TradeFi",
 			location:"Hong Kong",
-			dates:["08/2021", "current"],
+			dates:["08/2021", "03/2022"],
 			desc:"Description",
 			
 			points: [
-				" My work consists of both front & backend. On the frontend I worked on registration-styled forms with ReactJS and the main website via wordpress. Backend I have worked on a revamp for the website's KYC process developing APIs with NodeJS & ExpressJS and a MongoDB database for flexibility.", 
+				" My work consists of both frontend & backend. On the frontend I worked on registration-styled forms with ReactJS and the main website via wordpress. Backend I have worked on a revamp for the website's KYC process developing APIs with NodeJS & ExpressJS and a MongoDB database for flexibility.", 
 				
 				"I have worked on an internal portal for our finance dept to be able to view the different applicants along with their applications and related details.",
 				"Data science operations, handling major amounts of data and assist with data analysis.",
