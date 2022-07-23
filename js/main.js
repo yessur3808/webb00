@@ -478,7 +478,7 @@ function countersInit(){
 	if(config.isInView( document.querySelector('footer .counters .counter') ) && !config.counterbool){
 		animateVal('footer .counters .counter.projects span', parseInt(document.querySelector('footer .counters .counter.projects').innerText), projects_config.data.length, 800 );
 		setTimeout(function(){
-			animateVal('footer .counters .counter.coffee span', parseInt(document.querySelector('footer .counters .counter.coffee').innerText), 3268, 1200);
+			animateVal('footer .counters .counter.coffee span', parseInt(document.querySelector('footer .counters .counter.coffee').innerText), 7432, 1200);
 		}, 600);
 		config.counterbool = true;
 	}
