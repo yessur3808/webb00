@@ -1357,20 +1357,24 @@ footer {padding: 5rem 0;}
 
 
 #contact .model00 li{
-	display: block;
+	display: inline-block;
 }
 
 
 #contact .social-nav{
-	text-align: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 12px;
 }
 
 
 #contact .social-nav a{
     width: 100%;
-    border-radius: 12px;
+    border-radius: 5px;
     background: #384148;
     transition: all 0.4s ease;
+    padding: 5px 12px;
+    height: unset;
 }
 
 
