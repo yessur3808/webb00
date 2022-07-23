@@ -403,9 +403,7 @@ function inputPositions(){
 
 		if(job.type === "edu"){
 			var date0 = moment(job.dates[0],'YYYY').format('YYYY'), date1 = job.dates[1];
-			
-			console.log('edu');
-
+	
 			jobCtrl += '<li><button id="tab-'+i+'" role="tab" aria-selected="true" aria-controls="panel-'+i+'" tabindex="'+i+'" class="jobTab eduTab"><span>'+job.smallname+'</span><i class="fas fa-school"></i></button></li>';
 			
 			jobExp += '<div id="panel-'+i+'" role="tabpanel" tabindex="'+i+'" aria-labelledby="tab-'+i+'" aria-hidden="false" class="jobsTabContent"><h3><span>'+job.major+'</span><span class="company"><a href="'+job.website+'" class="inline-link">&nbsp;@&nbsp;'+job.name+'</a></span></h3><p class="range">'+date0+' - '+date1+'</p><div>'+tempPoints+'</div><div class="skills">'+skillsTemp+'</div></div>';			
