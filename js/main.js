@@ -22,7 +22,35 @@ var config = {
 			desc:"Description",
 			points: [
 				" My work consists of both frontend & backend.",
-				" Projects I have worked on <br/> <ul><li>•  DEFI Chain Desktop Wallet</li><li>•  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>•  Assis team members on other projects and general work</li><li>•  Data visualisations</li><li>•  Governance Proposals</li><li>•  Assist on UI/UX design when needed</li><li>•  Help with translations</li><li>•  Share knowledge on tools & technologies where needed</li></ul>"
+				" Projects I have worked on <br/> <ul><li>•  DEFI Chain Desktop Wallet</li><li>•  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>•  Assist team members on other projects and general work</li><li>•  Data visualisations</li><li>•  Governance Proposals</li><li>•  Assist on UI/UX design when needed</li><li>•  Help with translations</li><li>•  Share knowledge on tools & technologies where needed</li></ul>"
+			],
+			imgSrc:"https://static.crypto.com/layout/navbar/company-logos/white.svg",
+			website:"https://crypto.com/",
+			skills: [
+				{ skillname:'HTML5', per:87 },
+				{ skillname:'CSS3', per:88 },
+				{ skillname:'LESS', per:88 },
+				{ skillname:'Javascript', per:80 },
+				{ skillname:'Typescript', per:76 },
+				{ skillname:'ReactJS', per:74 },
+				{ skillname:'ElectronJS', per:64 },
+				{ skillname:'Antd UI', per:84 },
+				{ skillname:'Material UI Design', per:84 },
+				{ skillname:'D3js', per:84 },
+				{ skillname:'NodeJS', per:75 },
+				{ skillname:'Python', per:50 },
+				{ skillname:'Solidty', per:10 },
+				{ skillname:'SQL', per: 20 },
+				{ skillname:'UI/UX', per: 20 },
+				{ skillname:'Git', per: 20 },
+				{ skillname:'Research', per: 72 },
+				{ skillname:'Problem Solving', per: 70 },
+				{ skillname:'Troubleshooting', per:70 },
+				{ skillname:'Data Visualization', per:84 },
+				{ skillname:"Ubuntu", per: 50 },
+				{ skillname:"GraphQL", per: 30 },
+				{ skillname:"Windows OS", per: 50 },
+				{ skillname:"Mac OS", per: 50 },
 			]
 		},
 		
@@ -62,6 +90,7 @@ var config = {
 				{ skillname:'ExpressJS', per:66 },
 				{ skillname:'Wordpress', per:70 },
 				{ skillname:'Websockets', per:50 },
+				{ skillname:'REST', per:50 },
 				{ skillname:'MySQL', per: 20 },
 				{ skillname:'Azure', per: 20 },
 				{ skillname:'MongoDB', per: 20 },
@@ -76,6 +105,7 @@ var config = {
 				{ skillname:'Creativity', per:70 },
 				{ skillname:"Ubuntu", per: 50 },
 				{ skillname:"Windows", per: 50 },
+				
 			]
 			},{
 			type:"work",
@@ -101,6 +131,7 @@ var config = {
 				{ skillname:'HTML5', per:84 },
 				{ skillname:'CSS3', per:76 },
 				{ skillname:'Javascript', per:72 },
+				{ skillname:'VueJS', per:72 },
 				{ skillname:'JQuery', per:72 },
 				{ skillname:'NodeJS', per:66 },
 				{ skillname:'ExpressJS', per:66 },
@@ -108,6 +139,7 @@ var config = {
 				{ skillname:'D3js', per:70 },
 				{ skillname:'Google Sheets', per: 74 },
 				{ skillname:'Websockets', per:50 },
+				{ skillname:'REST', per:50 },
 				
 				{ skillname:'AliCloud', per:50 },
 				
@@ -122,6 +154,7 @@ var config = {
 				{ skillname:'Creativity', per:70 },
 				{ skillname:"Team Work", per: 78 },
 				{ skillname:"Ubuntu", per: 50 },
+				{ skillname:'Data Visualization', per:84 },
 				{ skillname:"PuttyTel", per: 90 },
 				{ skillname:"Presentation", per: 74 }
 			]
@@ -129,7 +162,7 @@ var config = {
 			type:"work",
 			position:"Associate System Consultant",
 			company:"Poly-Asia(China) Co. Ltd.",
-			smallname: "Poly-Asia",
+			smallname: "PolyAsia",
 			location:"Hong Kong",
 			dates:["07/2017","07/2018"],
 			desc:"Right after graduating University I started my job at Poly-Asia as a Trainee then went on to be promoted to Associate after 3 months: I worked on Microsoft ERP software customization like Microsoft Dynamics NAV and Microsoft Dynamics GP. I had also assisted in the ecommerce website using Joomla and basic HTML & CSS. I then lead the setting up of networks for several of the company's clients and kept up with maintenance of others.",
