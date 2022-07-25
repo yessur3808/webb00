@@ -48,7 +48,7 @@ var projects_config = {
             backend: "FALSE",
             frontend: "TRUE",
             belongs: "personal",
-            "tech stack": "ReactJS, GatsbyJS",
+            "tech stack": "ReactJS;GatsbyJS",
             featured: "",
             accomplishments: "",
         },
