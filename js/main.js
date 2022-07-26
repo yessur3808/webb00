@@ -22,9 +22,9 @@ var config = {
 			desc:"Description",
 			points: [
 				" My work consists of both frontend & backend.",
-				" Projects I have worked on <br/> <ul><li>  DEFI Chain Desktop Wallet</li><li>  Internal Portal for Cronos Chain</li><li>•  Assist on Main site</li><li>  Assist team members on other projects and general work</li><li>  Data visualisations</li><li>•  Governance Proposals</li><li>  Assist on UI/UX design when needed</li><li>  Help with translations</li><li>  Share knowledge on tools & technologies where needed</li></ul>"
+				" Projects I have worked on <br/> <ul><li>  DEFI Chain Desktop Wallet</li><li>  Internal Portal for Cronos Chain</li><li>  Assist on Main site</li><li>  Assist team members on other projects and general work</li><li>  Data visualisations</li><li>  Governance Proposals</li><li>  Assist on UI/UX design when needed</li><li>  Help with translations</li><li>  Share knowledge on tools & technologies where needed</li></ul>"
 			],
-			imgSrc:"https://static.crypto.com/layout/navbar/company-logos/white.svg",
+			imgSrc:"img/logo/crypto_com.svg",
 			website:"https://crypto.com/",
 			skills: [
 				{ skillname:'HTML5', per:87 },
@@ -75,7 +75,7 @@ var config = {
 				"Help with Azure cloud setup for our research team's requirements"
 			],
 			
-			imgSrc:"https://www.tradefi.com/wp-content/uploads/2020/10/logo_kyc_form.png",
+			imgSrc:"img/logo/tradefi_white.png",
 			website:"https://www.tradefi.com/",
 			skills: [
 				{ skillname:'HTML5', per:84 },
@@ -125,7 +125,7 @@ var config = {
 				"I have scripts that constantly updates a lot of our data sources like for example the scmp covid19 tracker grabbing data from several sources, scraping the sources and placing them into JSON files for ease to use for my team and others."
 			],
 			
-			imgSrc:"img/scmpOffice.jpg",
+			imgSrc:"img/logo/scmpOffice.jpg",
 			website:"https://www.scmp.com/",
 			skills: [
 				{ skillname:'HTML5', per:84 },
@@ -176,7 +176,7 @@ var config = {
 				"I had to as well assist in maintaining the company website via Joomla and some basic html5, php and css3."
 			],
 			
-			imgSrc:"img/polyasia.jpg",
+			imgSrc:"img/logo/polyasia.jpg",
 			website:"http://www.polyasia.net/",
 			skills: [
 				{ skillname:'Networking', per:84 },
@@ -215,7 +215,7 @@ var config = {
 			
 			
 			desc:"I part time taught children programming & STEM subjects as well as the basics of it. I focused on teaching the process of problem solving as that mattered more than whatever language they were learning. Focusing on emphasizing the language was just a tool and problem solving with any tool given is the skill. All while having fun and creatong cool stuff.",
-			imgSrc:"img/ccoding.jpg",
+			imgSrc:"img/logo/ccoding.jpg",
 			website:"https://www.creativecoding.hk/",
 			skills: [
 				{ skillname:'Physics', per:84 },
@@ -242,7 +242,7 @@ var config = {
 			],
 			
 			desc:"I tutored people Arabic in speaking, reading, and writing, it was all based on what they wanted to acheive by the end of the all the sessions. Whether they wanted to be well off on a conversational level or wanted to review some Arabic they had learned previously.",
-			imgSrc:"img/sunnydayedu.png",
+			imgSrc:"img/logo/sunnydayedu.png",
 			website:"http://hksunnyday.com/",
 			skills: [
 				{ skillname:'English', per:99.99 },
@@ -258,6 +258,7 @@ var config = {
 			location:"Hong Kong",
 			dates:["2012","2017"],
 			website: "https://www.cityu.edu.hk/",
+			imgSrc:"img/logo/cityu.svg",
 			degree:"Bachelors of Electronic Engineering",
 			points: [
 				"Learn the ability to apply knowledge of mathematics, science and engineering",
