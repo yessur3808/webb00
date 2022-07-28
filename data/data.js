@@ -6,7 +6,7 @@ var projects_config = {
             desc: "A non-custodial desktop wallet that gives you access to a full suite of DeFi services in one place.",
             img: "../img/cvrs/defi_wallet_desktop.png",
             url: "https://github.com/crypto-com/chain-desktop-wallet",
-            id: "YI0000102",
+            id: "YI0000103",
             date: "22/04/2022",
             type: "software",
             keywords: "electron, crypto, nodejs, reactjs, javascript, typescript",
@@ -17,6 +17,7 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
+
         
         {
             name: "Guess The Number Terminal Game",
