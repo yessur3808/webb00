@@ -323,7 +323,7 @@ var config = {
 var PlatformEvent = 'click';
 
 $(document).ready(function() {
-	initTracking();
+	// initTracking();
 	checkBrowser();	
 	dataInput();
 	siteControls();
@@ -437,7 +437,7 @@ function expControl(){
 			$('#experience .innerTabs').removeClass('tab'+i);
 		}
 		$('#experience .innerTabs').addClass('tab'+curindex);	
-		YIUtils.ga.click("yaser", config.name, "Choose job tab : "+curindex);		
+		// YIUtils.ga.click("yaser", config.name, "Choose job tab : "+curindex);		
 	});
 	
 }
@@ -530,7 +530,7 @@ function smoothScroll(){
 	$('a').on('click', function(){
 		var curlink = $(this).attr('href');
 		if(curlink && curlink.indexOf('http') > -1){
-			YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
+			// YIUtils.ga.click('yaser', config.name, "Link: "+curlink );
 		}
 	});
 	
@@ -539,10 +539,10 @@ function smoothScroll(){
 	$('a.js-scroll-trigger[href*="#"]:not([href="#"])').on('click', function(){
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname){
 			var target = $(this.hash);
-			YIUtils.ga.click('yaser', config.name,'Navigation',"Nav Button "+target );
+			// YIUtils.ga.click('yaser', config.name,'Navigation',"Nav Button "+target );
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if(target.length) {
-				YIUtils.ga.click('yaser', config.name, "Scroll: "+target );
+				// YIUtils.ga.click('yaser', config.name, "Scroll: "+target );
 				$('html, body').animate({
 					scrollTop: (target.offset().top - 70)
 				}, 1000, "easeInOutExpo");
@@ -553,14 +553,14 @@ function smoothScroll(){
 
 	document.querySelector('.hamburger').addEventListener('click', function() {
 		this.classList.toggle('opened');
-		YIUtils.ga.click('yaser', config.name,"Open Menu" );
+		// YIUtils.ga.click('yaser', config.name,"Open Menu" );
 	});
   
 	// Closes responsive menu when a scroll trigger link is clicked
 	document.querySelector('.js-scroll-trigger').addEventListener('click' ,function() {
 		$('.navbar-collapse').collapse('hide');
 		document.querySelector('.hamburger').classList.remove('opened');
-		YIUtils.ga.click('yaser', config.name,"Scroll Trigger" );
+		// YIUtils.ga.click('yaser', config.name,"Scroll Trigger" );
 	});
 
 	// Activate scrollspy to add active class to navbar items on scroll
