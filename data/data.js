@@ -1,6 +1,23 @@
 var projects_config = {
     data: [
-        
+        {
+            name: "My 3D Model",
+            desc: "An animated 3D model of me with Three.js & React to render.",
+            img: "../img/cvrs/my-3d-model.gif",
+            url: "https://yessur3808.github.io/my-3d-model/",
+            id: "YI0000104",
+            date: "13/08/2022",
+            type: "software",
+            keywords: "threejs, crypto, nodejs, reactjs, javascript, typescript",
+            backend: "FALSE",
+            frontend: "TRUE",
+            belongs: "personal",
+            "tech stack": "ReactJS;ThreeJS;Javascript;CSS",
+            featured: "",
+            accomplishments: "",
+        },
+
+
         {
             name: "Crypto.com DEFI Desktop Wallet",
             desc: "A non-custodial desktop wallet that gives you access to a full suite of DeFi services in one place.",
@@ -10,9 +27,9 @@ var projects_config = {
             date: "22/04/2022",
             type: "software",
             keywords: "electron, crypto, nodejs, reactjs, javascript, typescript",
-            backend: "FALSE",
-            frontend: "FALSE",
-            belongs: "personal",
+            backend: "TRUE",
+            frontend: "TRUE",
+            belongs: "Crypto.com",
             "tech stack": "ReactJS;ElectronJS;NodeJS;Typescript;Javascript;LESS;CSS",
             featured: "",
             accomplishments: "",
@@ -29,7 +46,7 @@ var projects_config = {
             type: "software",
             keywords: "Rust, game",
             backend: "FALSE",
-            frontend: "FALSE",
+            frontend: "TRUE",
             belongs: "personal",
             "tech stack": "Rust",
             featured: "",
