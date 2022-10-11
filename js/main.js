@@ -12,13 +12,50 @@ var config = {
 			{name:"Raspberry PI",per: 30}
 		],
 	workExp: [
+		
+		{
+			type: "work",
+			position: "Full Stack Software Engineer",
+			company: "Hex Trust",
+			smallname: "Hex Trust",
+			location:"Hong Kong",
+			dates: ["09/2022", "Current"],
+			desc:"Description",
+			points: [
+				" My work consists of both frontend & backend.",
+				" Projects I have worked on <br/> <ul><li>  Gryfyn Web Game Wallet</li><li>  Backend Book Keeping Systems</li></ul>"
+			],
+			imgSrc:"https://assets-global.website-files.com/61a0a50381fdccb6c37927e5/61e800a5df32732b07d77bc1_Hex-Trust-Logo.svg",
+			website:"https://hextrust.com/",
+			skills: [
+				{ skillname:'HTML5', per:87 },
+				{ skillname:'CSS3', per:88 },
+				{ skillname:'Javascript', per:80 },
+				{ skillname:'Typescript', per:76 },
+				{ skillname:'ReactJS', per:74 },
+				{ skillname:'NextJS', per:64 },
+				{ skillname:'Material UI', per:84 },
+				{ skillname:'NodeJS', per:75 },
+				{ skillname:'Python', per:50 },
+				{ skillname:'SQL', per: 40 },
+				{ skillname:'UI/UX', per: 40 },
+				{ skillname:'Git', per: 40 },
+				{ skillname:'Problem Solving', per: 70 },
+				{ skillname:'Troubleshooting', per:70 },
+				{ skillname:"Ubuntu", per: 50 },
+// 				{ skillname:"GraphQL", per: 30 },
+				{ skillname:"Mac OS", per: 50 },
+			]
+		},
+		
+		
 		{
 			type: "work",
 			position: "Blockchain Engineer",
 			company: "Crypto.com",
 			smallname: "Crypto.com",
 			location:"Hong Kong",
-			dates: ["03/2022", "Current"],
+			dates: ["03/2022", "07/2022"],
 			desc:"Description",
 			points: [
 				" My work consists of both frontend & backend.",
