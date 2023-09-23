@@ -13,7 +13,7 @@ var projects_config = {
             frontend: "TRUE",
             belongs: "personal",
             "tech stack": "ReactJS;ThreeJS;Javascript;CSS",
-            featured: "",
+            featured: "TRUE",
             accomplishments: "",
         },
 
