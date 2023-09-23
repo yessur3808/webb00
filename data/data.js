@@ -1,5 +1,64 @@
 var projects_config = {
     data: [
+
+
+        {
+            name: "Hexsafe",
+            desc: "The Hexsafe Enterprise Custodial Wallet",
+            img: "../img/logos/gryfyn.svg",
+            url: "https://hextrust.com/products/hex-safe",
+            id: "YI0000106",
+            date: "12/04/2023",
+            type: "webpage",
+            keywords: "crypto, nodejs, reactjs, mui, vite, typescript, golang, java, keycloak, postgresql",
+            backend: "TRUE",
+            frontend: "TRUE",
+            belongs: "hextrust",
+            "tech stack": "ReactJS;Typescript;CSS;MUI;Vite",
+            featured: "TRUE",
+            accomplishments: "",
+        },
+
+
+        {
+            name: "Gryfyn Wallet",
+            desc: "The Gryfyn Custodial Crypto Wallet",
+            img: "../img/logos/gryfyn.svg",
+            url: "https://wallet.gryfyn.io/",
+            id: "YI0000106",
+            date: "20/10/2022",
+            type: "webpage",
+            keywords: "crypto, nodejs, reactjs, mui, typescript, golang, java, keycloak, postgresql",
+            backend: "TRUE",
+            frontend: "TRUE",
+            belongs: "hextrust",
+            "tech stack": "ReactJS;Typescript;CSS;MUI",
+            featured: "TRUE",
+            accomplishments: "",
+        },
+
+        {
+            name: "Gryfyn.io",
+            desc: "The main site for Gryfyn Wallet and its integration with web3 games and sites",
+            img: "../img/logos/gryfyn.svg",
+            url: "https://www.gryfyn.io/",
+            id: "YI0000105",
+            date: "20/10/2022",
+            type: "webpage",
+            keywords: "crypto, nodejs, reactjs, nextjs, typescript, tailwindcss",
+            backend: "FALSE",
+            frontend: "TRUE",
+            belongs: "hextrust",
+            "tech stack": "ReactJS;Typescript;Javascript;CSS",
+            featured: "TRUE",
+            accomplishments: "",
+        },
+
+
+
+
+
+
         {
             name: "My 3D Model",
             desc: "An animated 3D model of me with Three.js & React to render.",
@@ -35,7 +94,7 @@ var projects_config = {
             accomplishments: "",
         },
 
-        
+
         {
             name: "Guess The Number Terminal Game",
             desc: "Guess the number game implemented in Rust.",
@@ -52,8 +111,8 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-        
-    
+
+
         {
             name: "Bitcoin Playground Web App",
             desc: "A “Bitcoin playground” web app that supports several functions.",
@@ -70,11 +129,11 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-      
-        
-        
-        
-        
+
+
+
+
+
         {
             name: "A simple Python based Neural Network",
             desc: "A simple neural network trained with backpropagation, using input to predict output.",
@@ -91,8 +150,8 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-        
-        
+
+
         {
             name: "URL Shortener",
             desc: "A url shortener developed with python",
@@ -109,8 +168,8 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-        
-        
+
+
         {
             name: "Simple KeyLogger",
             desc: "Simple keylogger made using python",
@@ -127,7 +186,7 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-      
+
         {
             name: "Backend Coding Challenge",
             desc: "An internal API service that will be called by the game to progress a players quest.",
@@ -144,8 +203,8 @@ var projects_config = {
             featured: "",
             accomplishments: "",
         },
-           
-      
+
+
         {
             name: "Proportion of the Hong Kong population currently vaccinated",
             desc: "Number of people who received the vaccine in Hong Kong",
